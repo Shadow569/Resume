@@ -1,0 +1,229 @@
+body{
+	background:#FFFFFF;
+	font-size:23px;
+	font-family:Helvetica;
+	width:100%;
+	margin:0;
+	padding:0;
+	position:relative;
+	z-index:0;
+	height:100%;
+}
+
+.side-bar{
+	background:#000000;
+	color:rgba(255,255,255,0.4);
+	font-size:100%;
+	padding:1%;
+	margin:0;
+	width:15%;
+	position:fixed;
+	height:100%;
+	text-align:center;
+	box-shadow: 0 2px 5px 3px #AAAAAA;
+}
+
+.content-area{
+	width:80%;
+	padding:1%;
+	display:block;
+	float:right;
+	height:100%;
+	color:#AAAAAA;
+}
+
+.profile-image{
+	padding:4%;
+	border-radius:5%;
+	background:rgba(255,255,255,0.3);
+	margin:1% auto;
+	width:60%;
+	height:20%;
+	margin-top:50%;
+}
+
+.profile-image > img{
+	border-radius:5%;
+	width:100%;
+	height:100%;
+}
+
+.basic-info{
+	margin:10% auto;
+}
+
+.basic-info:hover{
+	cursor:pointer;
+	color:rgba(255,255,255,0.7) !important;
+}
+
+.education{
+	margin:10% auto;
+}
+
+
+.education:hover{
+	cursor:pointer;
+	color:rgba(255,255,255,0.7) !important;
+}
+
+.projects{
+	margin:10% auto;
+}
+
+.projects:hover{
+	cursor:pointer;
+	color:rgba(255,255,255,0.7) !important;
+}
+
+.skills{
+	margin:10% auto;
+}
+
+.skills:hover{
+	cursor:pointer;
+	color:rgba(255,255,255,0.7) !important;
+}
+
+.contact{
+	margin:10% auto;
+}
+
+.contact:hover{
+	cursor:pointer;
+	color:rgba(255,255,255,0.7) !important;
+}
+
+.block{
+	width:100%;
+	height:100% !important;
+	font-size:140%;
+	margin-top:10%;
+	padding-top:10%;
+}
+
+.header{
+	margin:1% 2%;
+	font-size:250%;
+	letter-spacing:0.05em;
+}
+
+.contact-info{
+	font-size:60%;
+	margin:1% 2%;
+	letter-spacing:0.01em;
+}
+
+.contact-info > a{
+	color:#000000;
+	text-decoration:none;
+	font-weight:bold;
+}
+
+.general-skills{
+	margin:2%;
+	margin-top:5%;
+	margin-bottom:1%;
+	font-weight:bold;
+	font-size:90%;
+}
+
+.motivation{
+	margin:1% 2%;
+	font-size:80%;
+}
+
+.github{
+	background:black;
+	padding:2%;
+	border-radius:50%;
+	margin:2% 1%;
+	width:4%;
+	height:5%;
+	text-align:center;
+	display:inline-block;
+	color:#FFFFFF;
+}
+
+.fblink{
+	background:blue;
+	padding:2%;
+	border-radius:50%;
+	margin:2% 1%;
+	width:4%;
+	text-align:center;
+	display:inline-block;
+	color:#FFFFFF;
+}
+
+.instalink{
+	background:pink;
+	padding:2%;
+	border-radius:50%;
+	margin:2% 1%;
+	width:4%;
+	height:5%;
+	text-align:center;
+	display:inline-block;
+	color:#FFFFFF;
+}
+
+#education{
+	border-top:1px dashed #AAAAAA;
+	margin-top:20%;
+	margin-bottom:20%;
+}
+
+.header2{
+	margin:2%;
+	margin-bottom:1%;
+	margin-top:10%;
+	font-size:180%;
+	font-weight:bold;
+}
+
+.specialty{
+	color:#000000;
+	font-weight:bold;
+}
+
+.duration{
+	margin:5% 2%;
+	font-size:80%;
+}
+
+.education-element-row{
+	margin:1% 2%;
+	font-size:80%;
+}
+
+.github:hover{
+	background:#444444;
+	cursor:pointer;
+}
+
+.fblink:hover{
+	background:#000088;
+	cursor:pointer;
+}
+
+.instalink:hover{
+	background:#DDACA9;
+	cursor:pointer;
+}
+
+.fa-facebook{
+	color:#FFFFFF;
+	font-size:150%;
+}
+.fa-instagram{
+	color:#FFFFFF;
+	font-size:150%;
+	text-align:center;
+}
+
+.fa-github{
+	font-size:150%;
+	text-align:center;
+}
+	
