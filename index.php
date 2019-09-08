@@ -90,13 +90,11 @@
 		</script>
 	</head>
 	<body>
-		<------------------------- TODO: EMAIL CONTACT FORM STATUS ----------------------------------------------->
 		<div class='sent-message' style="display:none">
 			<div class='inside-modal'>
 				✔Sent successfully, I will get back to you soon.
 			</div>
 		</div>
-		<------------------------- Sidebar Information Container ----------------------------------------------->
 		<div class='side-bar'>
 			<div class='profile-image'><img src="assets/profile.jpg" /></div>
 			<div class='basic-info'>Basic Information</div>
@@ -105,9 +103,7 @@
 			<div class='projects'>Projects</div>
 			<div class='contact'>Contact</div>
 		</div>
-		<------------------------- Main Content Container ----------------------------------------------->
 		<div class='content-area'>
-			<------------------------- Basic Information Container ----------------------------------------------->
 			<div class='block' id='basic-info'>
 				<div class='header'>Kountret <b style="color:#000000">Spyrou-Mantal</b></div>
 				<div class='contact-info'>Athens, Greece  ◼  <a href='mailto:countretspirou@gmail.com'>COUNTRETSPIROU@GMAIL.COM</a></div>
@@ -119,12 +115,14 @@
 					<div class='fa fa-github github'><a href='#'></a></div>
 				</div>
 			</div>
-			<------------------------- Educational Background Container -------------------------------------------->
 			<div class='block' id='education'>
 				<div class='header'>Educational <b style='color:#000000'>Background</b></div>
 				<div class='header2'>University of West Attica</div>
 				<div class='education-element-row'><i>Bachelor of Science(BSc)</i> in <span class='specialty'>Industrial Design</span></div>
 				<div class='duration'>Duration of studies:		<i>09/2015 ➡ Now(ongoing studies)</i></div>
+				<div class='header2'>ADA University</div>
+				<div class='education-element-row'><i>Exchange Semester</i> in <span class='specialty'>Baku, Azerbaijan</span></div>
+				<div class='duration'>Duration of studies:		<i>01/2019 ➡ 05/2019</i></div>
 				<div class='header2'>2nd Vocational Highschool<br /> of Ag. Dimitirios</div>
 				<div class='education-element-row'><i>Specialization Diploma</i> in <span class='specialty'>IT Support</span> and <b style='color:#000000'>Highschool Diploma</b></div>
 				<div class='duration'>Duration of studies:		<i>09/2011 ➡ 06/2015</i></div>
