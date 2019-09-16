@@ -7,20 +7,46 @@ body{
 	padding:0;
 	position:relative;
 	z-index:0;
-	height:100em;
+	height:100%;
+}
+
+.image_inside{
+	width:60%;
+	background:#FFFFFF;
+	padding:1%;
+	border-radius:0.5rem;
+	height:8%;
+	box-shadow:0 0 10px 3px #AAAAAA;
+	position:absolute;
+	z-index:100;
+}
+
+.image_inside > img{
+	width:100%;
+	height:100%;
 }
 
 .side-bar{
 	background:#000000;
-	color:rgba(255,255,255,0.4);
+	color:rgba(255,255,255,0.5);
 	font-size:100%;
-	padding:1%;
+	padding:0;
 	margin:0;
 	width:15%;
 	position:fixed;
 	height:100%;
 	text-align:center;
 	box-shadow: 0 2px 5px 3px #AAAAAA;
+}
+
+.activeSide{
+	color:#000000;
+	background:#FFFFFF;
+	padding:1%;
+}
+
+.activeSide:hover{
+	color:#666666;
 }
 
 .content-area{
@@ -48,7 +74,18 @@ body{
 	height:100%;
 }
 
+.competitions:hover{
+	cursor:pointer;
+	color:rgba(255,255,255,0.7) !important;
+}
+
+.languageSkills:hover{
+	cursor:pointer;
+	color:rgba(255,255,255,0.7) !important;
+}
+
 .basic-info{
+	position:relative;
 	margin:10% auto;
 }
 
@@ -57,7 +94,18 @@ body{
 	color:rgba(255,255,255,0.7) !important;
 }
 
+.competitions{
+	position:relative;
+	margin:10% auto;
+}
+
+.languageSkills{
+	position:relative;
+	margin:10% auto;
+}
+
 .education{
+	position:relative;
 	margin:10% auto;
 }
 
@@ -68,6 +116,7 @@ body{
 }
 
 .projects{
+	position:relative;
 	margin:10% auto;
 }
 
@@ -77,6 +126,7 @@ body{
 }
 
 .skills{
+	position:relative;
 	margin:10% auto;
 }
 
@@ -86,6 +136,7 @@ body{
 }
 
 .contact{
+	position:relative;
 	margin:10% auto;
 }
 
@@ -96,10 +147,18 @@ body{
 
 .block{
 	width:100%;
-	height:100% !important;
 	font-size:140%;
 	margin-top:10%;
 	padding-top:10%;
+}
+
+.image-modal{
+	width:100%;
+	height:100%;
+	position:absolute;
+	z-index:90;
+	background:rgba(210,210,210,0.6);
+	display:none;
 }
 
 .header{
@@ -182,7 +241,7 @@ body{
 #skills{
 	border-top:1px dashed #AAAAAA;
 	margin-top:20%;
-	margin-bottom:20%;
+	margin-bottom:10%;
 }
 
 #contact{
@@ -336,15 +395,129 @@ body{
 	border:1px solid #AAAAAA;
 }
 
+.image_container > img:hover{
+	cursor:pointer;
+	box-shadow:0 0 5px 1px #CCCCCC;
+}
+
+#competitions{
+	margin-top:20%;
+	margin-bottom:10%;
+	border-top:1px dashed #AAAAAA;
+}
+
+#languageSkills{
+	margin-top:20%;
+	margin-bottom:10%;
+	border-top:1px dashed #AAAAAA;
+}
+
+
+.competition_container{
+	padding:1%;
+	background: #EEEEEE;
+	margin:4% 2%;
+	border-radius:0.5rem;
+}
+
+.language_container{
+	background:#EEEEEE;
+	padding:1%;
+	margin:4% 2%;
+	border-radius:0.5rem;
+}
+
+.language{
+	font-size:180%;
+	font-weight:bold;
+	color:#000000;
+	border-bottom:2px solid #AAAAAA;
+	text-align:center;
+	padding:1%;
+}
+
+.level{
+	font-size:140%;
+	margin:2% 5%;
+}
+
+.certification{
+	margin:1%;
+	text-align:center;
+}
+
+.certification > a{
+	text-decoration:none;
+	color:#000000;
+	font-size:90%;
+}
+
+.competition_name{
+	font-size:150%;
+	margin:2%;
+	border-bottom:2px solid #999999;
+}
+
+.competition_idea{
+	font-size:110%;
+	margin:2% 5%;
+	margin-bottom:1%;
+}
+
+.pitching_deck{
+	margin:2% 5%;
+}
+
+.placement{
+	text-align:center;
+	font-size:140%;
+	background:#CCCCCC;
+	padding:1%;
+	color:#FFFFFF;
+}
+
+.competition_website{
+	margin:2%;
+	text-align:center;
+}
+
+.competition_website > a{
+	color:#000000;
+	text-decoration:none;
+	font-size:90%;
+}
+
+.pitching_deck > a{
+	font-size:90%;
+	color:#000000;
+	text-decoration:none;
+}
+
+.competition_topic{
+	font-size:130%;
+	margin:3%;
+	color:#000000;
+}
+	
+
 .project-github{
 	margin:4% 2%;
 	font-size:80%;
 }
 
-.skill-element-row{
-	margin:2% 4%;
-	padding:2%;
+.skill_contain{
 	background:#000000;
+	border-radius:0.5rem;
+	padding:1%;
+	margin:2% 4%;
+}
+
+.skill-element-row{
+	margin: 4% 2%;
+}
+
+.fa{
+	margin:1%;
 }
 
 .header2{
@@ -399,4 +572,16 @@ body{
 	font-size:150%;
 	text-align:center;
 }
-	
+
+@media only screen and (max-width:1024px){
+	.side-bar{
+		display:none;
+	}
+	.side-bar > div{
+		display:none;
+	}
+	.content-area{
+		width:99%;
+		margin:0 auto;
+	}
+}
